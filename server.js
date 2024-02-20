@@ -59,7 +59,8 @@ http.createServer((req,res)=>{
     // }
     
     else{
-        res.write("<h1>This is a default message</h1>" + "<p>Search for:</p>" + "<p>/about?hobbies=coding, /about?hobbies=photo</p>")
+        res.write("<h1>This is a default message</h1>" + "<p>Search for:</p>" + "<p>/about?hobbies=coding, /about?hobbies=photo</p>"
+        + "<p>/flower or /music</p>")
         res.end(`I am the default page `)
     }
     
